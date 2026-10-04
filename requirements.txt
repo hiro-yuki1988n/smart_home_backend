@@ -1,0 +1,16 @@
+fastapi~=0.116.1
+uvicorn[standard]
+sqlalchemy~=2.0.43
+psycopg2-binary
+pydantic~=2.11.9
+passlib[bcrypt]~=1.7.4
+python-jose[cryptography]
+motor~=3.7.1
+paho-mqtt~=2.1.0
+
+PyJWT~=2.9.0
+pymongo~=4.15.0
+starlette~=0.47.3
+africastalking~=2.0.1
+django-sendgrid-webhook~=0.3.0
+python-dotenv~=1.1.1

@@ -1,0 +1,13 @@
+import enum
+
+
+class DeviceCategory(enum.Enum):
+    LIGHT = "LIGHT"
+    SWITCH = "SWITCH"
+    THERMOSTAT = "THERMOSTAT"
+    CAMERA = "CAMERA"
+    LOCK = "LOCK"
+    SPEAKER = "SPEAKER"
+    SENSOR = "SENSOR"
+    NETWORK_DEVICE = "NETWORK_DEVICE"
+    HOME_APPLIANCE = "HOME_APPLIANCE"

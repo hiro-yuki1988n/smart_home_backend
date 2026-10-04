@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+python-jose = {extras = ["cryptography"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
+pydantic = {extras = ["email"], version = "*"}
+django-sendgrid-webhook = "*"
+africastalking = "*"
+mail = "*"
+pyyaml = "*"
+user-agents = "*"
+
+[dev-packages]
+black = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+psycopg2-binary = "*"
+sqlalchemy = "*"
+motor = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
+paho-mqtt = "*"
+python-dotenv = "*"
+pydantic = {extras = ["email"], version = "*"}
+pytest = "*"
+httpx = "*"
+
+[requires]
+python_version = "3.10"
